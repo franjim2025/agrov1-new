@@ -7,6 +7,6 @@
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
 export default defineConfig({
-    base: '/', // Esto asegura que las rutas carguen desde la raíz
-    // ... el resto de tu config
-  })
+  // Si Lovable ya maneja el preset, no necesitamos forzarlo aquí
+  // por ahora, déjalo limpio para que compile.
+});
