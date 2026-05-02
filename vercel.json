@@ -1,10 +1,12 @@
 {
   "version": 2,
   "framework": "tanstack-start",
-  "builds": [
+  "public": true,
+  "cleanUrls": true,
+  "rewrites": [
     {
-      "src": "package.json",
-      "use": "@vercel/node"
+      "source": "/(.*)",
+      "destination": "/"
     }
   ]
 }
