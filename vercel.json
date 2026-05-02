@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "framework": "tanstack-start",
   "public": true,
   "cleanUrls": true,
   "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/"
-    }
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
