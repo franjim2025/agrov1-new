@@ -16,6 +16,9 @@ dist-ssr
 .nitro
 *.local
 
+# Local lockfile backups (not part of the repo)
+bun.lockb-old
+
 # Wrangler / Cloudflare
 .wrangler/
 .dev.vars
